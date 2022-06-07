@@ -29,19 +29,19 @@ body {
     width: 100%;
     margin-top: 30px;
     border-radius: 25px;
-    -webkit-animation: fadeInbottom 1s both 2s 0.7s;
-    -moz-animation: fadeInbottom 1s both 0.7s;
-    -o-animation: fadeInbottom 1s both 0.7s;
-    animation: fadeInbottom 1s both 0.7s;
+    -webkit-animation: fadeInbottom 1s both 2s 0.5s;
+    -moz-animation: fadeInbottom 1s both 0.5s;
+    -o-animation: fadeInbottom 1s both 0.5s;
+    animation: fadeInbottom 1s both 0.5s;
 }
 
 .title {
     margin-top: 30px;
     text-align: center;
-    -webkit-animation: fadeInbottom 1s both 2s 0.5s;
-    -moz-animation: fadeInbottom 1s both 0.5s;
-    -o-animation: fadeInbottom 1s both 0.5s;
-    animation: fadeInbottom 1s both 0.5s;
+    -webkit-animation: fadeInbottom 1s both 2s 0.3s;
+    -moz-animation: fadeInbottom 1s both 0.3s;
+    -o-animation: fadeInbottom 1s both 0.3s;
+    animation: fadeInbottom 1s both 0.3s;
 }
 
 .content {
@@ -51,10 +51,10 @@ body {
     line-height: 40px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-animation: fadeInbottom 1s both 2s 1.0s;
-    -moz-animation: fadeInbottom 1s both 1.0s;
-    -o-animation: fadeInbottom 1s both 1.0s;
-    animation: fadeInbottom 1s both 1.0s;
+    -webkit-animation: fadeInbottom 1s both 2s 0.7s;
+    -moz-animation: fadeInbottom 1s both 0.7s;
+    -o-animation: fadeInbottom 1s both 0.7s;
+    animation: fadeInbottom 1s both 0.7s;
 }
 
 h3 {

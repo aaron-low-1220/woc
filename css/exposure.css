@@ -42,24 +42,24 @@ body {
 }
 
 #aperture {
+    -webkit-animation: fadeInbottom 1s both 2s 0.3s;
+    -moz-animation: fadeInbottom 1s both 0.3s;
+    -o-animation: fadeInbottom 1s both 0.3s;
+    animation: fadeInbottom 1s both 0.3s;
+}
+
+#iso {
+    -webkit-animation: fadeInbottom 1s both 2s 0.7s;
+    -moz-animation: fadeInbottom 1s both 0.7s;
+    -o-animation: fadeInbottom 1s both 0.7s;
+    animation: fadeInbottom 1s both 0.7s;
+}
+
+#shutter {
     -webkit-animation: fadeInbottom 1s both 2s 0.5s;
     -moz-animation: fadeInbottom 1s both 0.5s;
     -o-animation: fadeInbottom 1s both 0.5s;
     animation: fadeInbottom 1s both 0.5s;
-}
-
-#iso {
-    -webkit-animation: fadeInbottom 1s both 2s 1.5s;
-    -moz-animation: fadeInbottom 1s both 1.5s;
-    -o-animation: fadeInbottom 1s both 1.5s;
-    animation: fadeInbottom 1s both 1.5s;
-}
-
-#shutter {
-    -webkit-animation: fadeInbottom 1s both 2s 1.0;
-    -moz-animation: fadeInbottom 1s both 1.0;
-    -o-animation: fadeInbottom 1s both 1.0;
-    animation: fadeInbottom 1s both 1.0s;
 }
 
 @-webkit-keyframes fadeInbottom {
