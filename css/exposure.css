@@ -40,3 +40,68 @@ body {
     writing-mode: sideways-rl;
     color: #20313F;
 }
+
+#aperture {
+    -webkit-animation: fadeInbottom 1s both 2s 0.5s;
+    -moz-animation: fadeInbottom 1s both 0.5s;
+    -o-animation: fadeInbottom 1s both 0.5s;
+    animation: fadeInbottom 1s both 0.5s;
+}
+
+#iso {
+    -webkit-animation: fadeInbottom 1s both 2s 1.5s;
+    -moz-animation: fadeInbottom 1s both 1.5s;
+    -o-animation: fadeInbottom 1s both 1.5s;
+    animation: fadeInbottom 1s both 1.5s;
+}
+
+#shutter {
+    -webkit-animation: fadeInbottom 1s both 2s 1.0;
+    -moz-animation: fadeInbottom 1s both 1.0;
+    -o-animation: fadeInbottom 1s both 1.0;
+    animation: fadeInbottom 1s both 1.0s;
+}
+
+@-webkit-keyframes fadeInbottom {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInbottom {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInbottom {
+    0% {
+        opacity: 0;
+        -o-transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInbottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
