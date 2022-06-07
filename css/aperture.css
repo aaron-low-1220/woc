@@ -66,10 +66,27 @@ h3 {
 
 .buttons button {
     border-width: 2px;
-    border-color: black;
+    border-color: #20313F;
     border-radius: 25px;
     padding: 10px 15px 10px 15px;
     margin-right: 30px;
+}
+
+.dir {
+    text-align: center;
+}
+
+.direct {
+    font-size: 25px;
+    border-width: 3px;
+    border-radius: 50px;
+    color: #20313F;
+    border-color: #20313F;
+    padding: 10px 20px 10px 20px;
+    -webkit-animation: fadeInbottom 1s both 2s 1.0s;
+    -moz-animation: fadeInbottom 1s both 1.0s;
+    -o-animation: fadeInbottom 1s both 1.0s;
+    animation: fadeInbottom 1s both 1.0s;
 }
 
 @-webkit-keyframes fadeInbottom {

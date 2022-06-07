@@ -73,6 +73,23 @@ h3 {
     margin-right: 30px;
 }
 
+.dir {
+    text-align: center;
+}
+
+.direct {
+    font-size: 25px;
+    border-width: 3px;
+    border-radius: 50px;
+    color: #20313F;
+    border-color: #20313F;
+    padding: 10px 20px 10px 20px;
+    -webkit-animation: fadeInbottom 1s both 2s 1.0s;
+    -moz-animation: fadeInbottom 1s both 1.0s;
+    -o-animation: fadeInbottom 1s both 1.0s;
+    animation: fadeInbottom 1s both 1.0s;
+}
+
 @-webkit-keyframes fadeInbottom {
     0% {
         opacity: 0;
