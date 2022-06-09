@@ -35,6 +35,17 @@ button {
     padding: 10px 20px 10px 20px;
     border-radius: 100px;
     margin: 15px 15px 30px 15px;
+    -webkit-animation: fadeInbottom 1s both;
+    -moz-animation: fadeInbottom 1s both;
+    -o-animation: fadeInbottom 1s both;
+    animation: fadeInbottom 1s both 0s;
+}
+
+h2 {
+    -webkit-animation: fadeInbottom 1s both 2s 0.15s;
+    -moz-animation: fadeInbottom 1s both 0.15s;
+    -o-animation: fadeInbottom 1s both 0.15s;
+    animation: fadeInbottom 1s both 0.15s;
 }
 
 .photo1 {
@@ -65,13 +76,37 @@ button {
     animation: fadeInbottom 1s both 0.75s;
 }
 
-@media only screen and (min-width: 600px) and (max-width:991.33px) {
+.video1 {
+    -webkit-animation: fadeInbottom 1s both 2s 0.3s;
+    -moz-animation: fadeInbottom 1s both 0.3s;
+    -o-animation: fadeInbottom 1s both 0.3s;
+    animation: fadeInbottom 1s both 0.3s;
+}
+
+.video2 {
+    -webkit-animation: fadeInbottom 1s both 2s 0.45s;
+    -moz-animation: fadeInbottom 1s both 0.45s;
+    -o-animation: fadeInbottom 1s both 0.45s;
+    animation: fadeInbottom 1s both 0.45s;
+}
+
+.video3 {
+    -webkit-animation: fadeInbottom 1s both 2s 0.6s;
+    -moz-animation: fadeInbottom 1s both 0.6s;
+    -o-animation: fadeInbottom 1s both 0.6s;
+    animation: fadeInbottom 1s both 0.6s;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991.33px) {
     .all {
         width: 80%;
     }
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
     .all {
         width: 90%;
     }
