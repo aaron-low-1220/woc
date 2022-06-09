@@ -26,3 +26,15 @@ body {
 .all h2 {
     text-align: center;
 }
+
+@media only screen and (min-width: 600px) and (max-width:991.33px) {
+    .all {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .all {
+        width: 90%;
+    }
+}
