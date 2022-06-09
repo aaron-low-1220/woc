@@ -16,3 +16,13 @@ body {
     text-decoration: none;
     color: #20313F;
 }
+
+.all {
+    margin: 0 auto;
+    width: 60%;
+    letter-spacing: 3px;
+}
+
+.all h2 {
+    text-align: center;
+}
