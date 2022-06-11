@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
     <title>談攝世界 World of Cam | 快門 Shutter</title>
-    <link rel="icon" href="./logo/Logo.png">
+    <link rel="icon" href="../logo/Logo.png">
     <!--BsCSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/universal.css">
@@ -48,15 +48,18 @@
     </nav>
     <div class="demo">
         <h3>實作</h3>
-        <img src="" alt="">
+        <div class="main">
+            <img class="mainimg" id="mainimg" src="../img/ISO/100.jpg " alt=" ">
+        </div>
         <div class="buttons">
-            <button>1/2s</button>
-            <button>1/60s</button>
-            <button>1/250s</button>
-            <button>1/1000s</button>
-            <button>1/4000s</button>
+            <button id="two">1/2s</button>
+            <button id="sixty">1/60s</button>
+            <button id="twoFifty">1/250s</button>
+            <button id="thousand">1/1000s</button>
+            <button id="fourThousand">1/4000s</button>
         </div>
     </div>
+    <script src="../js/shutter.js"></script>
     <!--BsJavaScript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

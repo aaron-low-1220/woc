@@ -1,22 +1,23 @@
-var modal = document.getElementById('bigDiv')
-var img1 = document.getElementById('small1')
-var img2 = document.getElementById('small2')
-var img3 = document.getElementById('small3')
-var img4 = document.getElementById('small4')
-var modalImg = document.getElementById('big1')
-img1.onclick = function() {
-    modal.style.display = 'block'
-    modalImg.src = this.src
+var iso1 = document.getElementById('one');
+var iso4 = document.getElementById('four');
+var iso16 = document.getElementById('onesix');
+var iso64 = document.getElementById('sixfour');
+var iso256 = document.getElementById('twofivesix');
+var modalImg = document.getElementById('mainimg');
+
+iso1.onclick = function() {
+    modalImg.src = '../img/ISO/100.jpg';
+    console.log(modalImg)
 }
-img2.onclick = function() {
-    modal.style.display = 'block'
-    modalImg.src = this.src
+iso4.onclick = function() {
+    modalImg.src = '../img/ISO/400.jpg';
 }
-img3.onclick = function() {
-    modal.style.display = 'block'
-    modalImg.src = this.src
+iso16.onclick = function() {
+    modalImg.src = '../img/ISO/1600.jpg';
 }
-img4.onclick = function() {
-    modal.style.display = 'block'
-    modalImg.src = this.src
+iso64.onclick = function() {
+    modalImg.src = '../img/ISO/6400.jpg';
+}
+iso256.onclick = function() {
+    modalImg.src = '../img/ISO/25600.jpg';
 }
