@@ -2933,7 +2933,8 @@ fieldset:disabled .btn {
     padding: .5rem 1rem;
     color: #20313F;
     text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    margin-left: .5rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2981,7 +2982,7 @@ fieldset:disabled .btn {
 .nav-tabs .nav-item.show .nav-link {
     color: #495057;
     background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff
+    border-color: #dee2e6 #dee2e6;
 }
 
 .nav-tabs .dropdown-menu {
@@ -3035,7 +3036,8 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
-    padding-bottom: .5rem
+    padding-bottom: .5rem;
+    font-size: 18px;
 }
 
 .navbar>.container,
@@ -3065,16 +3067,16 @@ fieldset:disabled .btn {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
 }
 
 .navbar-nav .nav-link {
     padding-right: 0;
-    padding-left: 0
+    padding-left: 0;
 }
 
 .navbar-nav .dropdown-menu {
-    position: static
+    position: relative
 }
 
 .navbar-text {
