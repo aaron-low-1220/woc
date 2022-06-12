@@ -56,6 +56,25 @@ body {
     font-size: 18px;
 }
 
+button {
+    justify-content: center;
+    color: #20313F;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 25px;
+    padding: 8px 15px 8px 15px;
+    -webkit-animation: fadeInbottom 1s both 2s 0.3s;
+    -moz-animation: fadeInbottom 1s both 0.3s;
+    -o-animation: fadeInbottom 1s both 0.3s;
+    animation: fadeInbottom 1s both 0.3s;
+}
+
+.back {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 @-webkit-keyframes fadeInbottom {
     0% {
         opacity: 0;

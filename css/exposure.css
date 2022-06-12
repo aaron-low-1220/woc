@@ -29,6 +29,7 @@ body {
 }
 
 .all {
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -60,6 +61,18 @@ body {
     -moz-animation: fadeInbottom 1s both 0.35s;
     -o-animation: fadeInbottom 1s both 0.35s;
     animation: fadeInbottom 1s both 0.35s;
+}
+
+@media only screen and (min-width: 600px) and (max-width:991.33px) {
+    .all {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .all {
+        margin: 0;
+    }
 }
 
 @-webkit-keyframes fadeInbottom {

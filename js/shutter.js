@@ -6,18 +6,18 @@ var fourThousand = document.getElementById('fourThousand');
 var modalImg = document.getElementById('mainimg');
 
 two.onclick = function() {
-    modalImg.src = '../img/ISO/100.jpg';
+    modalImg.src = '../img/Shutter/12.jpg';
     console.log(modalImg)
 }
 sixty.onclick = function() {
-    modalImg.src = '../img/ISO/400.jpg';
+    modalImg.src = '../img/Shutter/160.jpg';
 }
 twoFifty.onclick = function() {
-    modalImg.src = '../img/ISO/1600.jpg';
+    modalImg.src = '../img/Shutter/1250.jpg';
 }
 thousand.onclick = function() {
-    modalImg.src = '../img/ISO/6400.jpg';
+    modalImg.src = '../img/Shutter/11000.jpg';
 }
 fourThousand.onclick = function() {
-    modalImg.src = '../img/ISO/25600.jpg';
+    modalImg.src = '../img/Shutter/14000.jpg';
 }
