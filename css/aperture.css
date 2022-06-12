@@ -73,6 +73,11 @@ h3 {
     margin-top: 30px;
 }
 
+.buttons button:hover {
+    background-color: #20313F;
+    color: #EAE7DC;
+}
+
 .dir {
     text-align: center;
 }
