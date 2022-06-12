@@ -52,6 +52,10 @@ body {
     animation: fadeInbottom 1s both 1.1s;
 }
 
+.all p {
+    font-size: 18px;
+}
+
 @-webkit-keyframes fadeInbottom {
     0% {
         opacity: 0;
