@@ -43,8 +43,12 @@ body {
     animation: fadeInbottom 1s both 0.15s;
 }
 
+.all {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .content {
-    text-align: center;
     width: 65%;
     font-size: 16px;
     line-height: 40px;
@@ -131,6 +135,9 @@ h3 {
 }
 
 @media only screen and (min-width: 600px) and (max-width:991.33px) {
+    .all {
+        width: 90%;
+    }
     .mainimg {
         width: 55%;
     }
@@ -140,6 +147,9 @@ h3 {
 }
 
 @media only screen and (max-width:600px) {
+    .all {
+        width: 95%;
+    }
     .mainimg {
         width: 80%;
     }
